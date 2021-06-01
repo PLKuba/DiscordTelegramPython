@@ -1,15 +1,15 @@
 import discord
 
-class MyClient(discord.Client):
-    async def on_ready(self):
-        print('Logged on as', self.user)
+client=discord.Client()
 
-    async def on_message(self, message):
-        # don't respond to ourselves
-        if message.author == self.user:
-            return
-        if message.content == 'ping':
-            await message.channel.send('pong')
+@client.event
+async def on_ready():
+    print("Logged in")
 
-client = MyClient()
+@client.event
+async def on_message(message):
+    if message.content == "ping":
+        await message.channel.send("pong!")
+
+
 client.run('NzcwNTYxNzM0NzQ1MzkxMTM0.X5fXiQ.sMfVteJo-ABfiEctdP7C3e3jWR4')
