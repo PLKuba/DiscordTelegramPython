@@ -16,4 +16,4 @@
 #     embed=discord.Embed(title="Title",colour=discord.Colour.blue())
 #     await client.say(embed=embed)
 #
-# client.run("ODQ4OTc0ODI2NTM3MzUzMjc3.YLUbaw.7LqUMngVyx19LyfUiTYOcdqZkNI")
+# client.run("")
