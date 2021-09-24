@@ -57,8 +57,6 @@ SL: {tradeSL}
 ⚠️NOT FINANCIAL ADVICE"""
 
         return trade
-#ODQ4OTc0ODI2NTM3MzUzMjc3.YLUbaw.7LqUMngVyx19LyfUiTYOcdqZkNI - processmessages
-# ODQ4OTUyMTA4MTA3Njk0MTYy.YLUGQw.jKN7P1a6NMVwQuw1DW1Mc5-03DE - discordTelegram
-# NzcwNTYxNzM0NzQ1MzkxMTM0.X5fXiQ.sMfVteJo-ABfiEctdP7C3e3jWR4 - HOST (don't touch)
 
-client.run('ODQ4OTUyMTA4MTA3Njk0MTYy.YLUGQw.jKN7P1a6NMVwQuw1DW1Mc5-03DE')
+
+client.run('')
